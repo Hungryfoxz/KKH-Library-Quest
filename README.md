@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/BuildFramework-Expo-green"/>
   <img src="https://img.shields.io/badge/Typescript-Yes-blueviolet"/>
 </div>
+
 # Library Quest
 
 A gamified mobile application for library discovery and navigation, developed for the KK Handiqui Library at Gauhati University. Students explore the physical library by following mission-based clues and scanning QR checkpoints, earning XP and badges as they discover each section.
@@ -102,6 +103,7 @@ Each mission includes:
 ---
 
 ## 📁 Project Structure
+```.
 LibraryQuest/
 ├── src/
 │ ├── app/ # Expo Router screens (routes)
@@ -130,7 +132,7 @@ LibraryQuest/
 ├── tsconfig.json # TypeScript + path aliases
 ├── package.json
 └── README.md
-
+```
 
 **Path alias:** `@/` resolves to `src/`. So `import { MISSIONS } from '@/data/missions'` refers to `src/data/missions.ts`.
 
@@ -147,7 +149,7 @@ LibraryQuest/
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/library-quest.git
+git clone https://github.com/Hungryfoxz/KKH-Library-Quest.git
 cd library-quest
 npm install
 ```
@@ -352,22 +354,16 @@ See Figure 1 in the research paper for a visual walkthrough of all screens.
 
 ## 📸 Screenshot
 <div style="align:center">
- <img src="screenshot/2.png" alt="Registration">
+ <img src="screenshot/2.png" alt="Registration" width="45%">
+ <img src="screenshot/3.png" alt="Home Page" width="45%">
 </div>
 <div style="align:center">
- <img src="screenshot/3.png" alt="Home Page">
+ <img src="screenshot/4.png" alt="Mission 1" width="45%">
+ <img src="screenshot/5.png" alt="Scanning View" width="45%">
 </div>
 <div style="align:center">
- <img src="screenshot/4.png" alt="Mission 1">
-</div>
-<div style="align:center">
- <img src="screenshot/5.png" alt="Scanning View">
-</div>
-<div style="align:center">
- <img src="screenshot/6.png" alt="All Missions">
-</div>
-<div style="align:center">
- <img src="screenshot/7.png" alt="Help">
+ <img src="screenshot/6.png" alt="All Missions" width="45%">
+ <img src="screenshot/7.png" alt="Help" width="45%">
 </div>
 
 
@@ -402,18 +398,17 @@ npx license mit > LICENSE
 📚 Citation
 If you use this application or build on this work, please cite:
 ```bash
-@misc{khanikar2026libraryquest,
-  author       = {Khanikar, Kaustav},
-  title        = {Library Quest: A Gamified Mobile Application for Library Discovery and Navigation},
+  author       = {Khanikar, Kaustav Kr.},
+  title        = {KKH Library Quest},
   year         = {2026},
-  publisher    = {GitHub},
-  howpublished = {\url{https://github.com/YOUR_USERNAME/library-quest}},
+  publisher    = {Github},
+  howpublished = {https://github.com/Hungryfoxz/KKH-Library-Quest},
   note         = {Developed at Gauhati University, KK Handiqui Library}
-}
 ```
 
+
 ## 👤 Author
-**Kaustav Khanikar**
+**Kaustav Kr Khanikar**
 Department of Library and Information Science
 Gauhati University
 
