@@ -5,9 +5,9 @@
   <img src="https://img.shields.io/github/license/Hungryfoxz/Django_poll"/>
   <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FHungryfoxz%2FDjango_poll"/>
   <img src="https://img.shields.io/badge/branch-main-brightgreen"/>
-  <img src="https://img.shields.io/badge/frontend-ReactNative-yellow"/>
+  <img src="https://img.shields.io/badge/framework-ReactNative-yellow"/>
   <img src="https://img.shields.io/badge/status-active-ff69b4"/>
-  <img src="https://img.shields.io/badge/BuildFramework-Expo-green"/>
+  <img src="https://img.shields.io/badge/build-Expo-green"/>
   <img src="https://img.shields.io/badge/Typescript-Yes-blueviolet"/>
 </div>
 
@@ -79,7 +79,7 @@ The application guides students through ten sections across three floors of the 
 Each mission includes:
 
 - A **clue** (riddle describing the section)
-- Up to **three progressive hints** (costing 10, 20, and 30 XP)
+- Up to **three progressive hints** (costing 0, 1, and 10 XP)
 - A unique **QR code** for the physical checkpoint
 - A **challenge question** requiring physical interaction with the section
 
@@ -354,12 +354,12 @@ See Figure 1 in the research paper for a visual walkthrough of all screens.
 
 ## 📸 Screenshot
 <div style="align:center">
- <img src="screenshot/2.png" alt="Registration" width="45%">
- <img src="screenshot/3.png" alt="Home Page" width="45%">
+ <img src="screenshot/2.png" alt="Registration" width="43.3%">
+ <img src="screenshot/3.png" alt="Home Page" width="46.7%">
 </div>
 <div style="align:center">
- <img src="screenshot/4.png" alt="Mission 1" width="45%">
- <img src="screenshot/5.png" alt="Scanning View" width="45%">
+ <img src="screenshot/4.png" alt="Mission 1" width="45.5%">
+ <img src="screenshot/5.png" alt="Scanning View" width="44.5%">
 </div>
 <div style="align:center">
  <img src="screenshot/6.png" alt="All Missions" width="45%">
